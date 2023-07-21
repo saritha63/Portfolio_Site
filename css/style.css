@@ -1,0 +1,36 @@
+.bannerBgImage{
+    height: 100vh;
+    background: url("/Images/bannerImage.jpg");
+    background-size: cover;
+    position:relative;
+}
+.bannerText{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.align-text-bottom{
+    font-size: medium;
+    color: rgb(249, 245, 245);
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(171, 226, 233);
+    border: 5px solid rgb(183, 240, 69);
+}
+.bicon{
+    width:100%;
+    text-align:center;
+    font-size:40px;
+}
